@@ -1,3 +1,5 @@
+package org.example;
+
 import com.googlecode.lanterna.TerminalPosition;
 import com.googlecode.lanterna.TerminalSize;
 import com.googlecode.lanterna.TextColor;
@@ -82,7 +84,7 @@ public class Arena {
     private void verifyMonsterCollisions() {
         for (Monster monster : monsters)
             if (hero.getPosition().equals(monster.getPosition())) {
-                System.out.println("You died!");
+                System.out.println("You lost!");
                 System.exit(0);
             }
     }

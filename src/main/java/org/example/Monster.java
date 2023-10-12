@@ -1,6 +1,10 @@
+package org.example;
+
 import com.googlecode.lanterna.TerminalPosition;
 import com.googlecode.lanterna.TextColor;
 import com.googlecode.lanterna.graphics.TextGraphics;
+import org.example.Element;
+
 import java.util.Random;
 
 public class Monster extends Element {
